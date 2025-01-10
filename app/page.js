@@ -14,8 +14,10 @@ export default function Home() {
     total: 32,
   };
   return (
-    <div className="py-16 flex flex-col gap-6 justify-center items-center">
-      <h1 className="text-center text-4xl">Table with dummy data</h1>
+    <div className="py-16 flex flex-col gap-6 justify-center items-center cursor-default">
+      <h1 className="text-center text-4xl font-serif text-color">
+        Dynamic React Table: A Feature-Rich Reusable Component
+      </h1>
       <ReusableTable data={data} />
     </div>
   );
